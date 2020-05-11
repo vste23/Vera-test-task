@@ -1,0 +1,84 @@
+.subnet-list-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.subnet-wrap {
+    display: inline-flex;
+    vertical-align: top;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    min-height: 80px;
+    min-width: 80px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    pointer-events: all;
+    cursor: pointer;
+    transition: all 0.2s ease;;
+}
+
+.subnet-wrap:hover {
+    transition: all 0.2s ease;;
+    background-color: yellow;
+}
+
+.subnet-stats {
+    text-align: center;
+}
+
+.subnet-name {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.subnet-ec2 {
+    width: auto;
+    min-width: 200px;
+}
+
+.ec2-icons-label {
+    width: 100%;
+    text-align: center;
+}
+
+.subnet-ec2-ips {
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 120px;
+    flex-direction: column;
+}
+
+.subnet-ec2-icons {
+    width: auto;
+    min-width: 90px;
+    display: inline-flex;
+    vertical-align: top;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.ec2-icon {
+    height: 60px;
+    width: 60px;
+    background-color: orange;
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.ec2-icon:hover {
+    transition: all 0.2s ease;
+    background-color: red;
+}
+
+.ec2-icon:not(:first-child) {
+    margin-top: -50px;
+}

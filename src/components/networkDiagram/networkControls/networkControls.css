@@ -1,0 +1,43 @@
+.network-controls {
+    height: 100vh;
+    margin-bottom: 100px;
+    display: inline-flex;
+    border-right: 1px solid grey;
+    width: 300px;
+    vertical-align: top;
+    padding: 15px;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    background-color: #235b43;
+    margin-top: 15px;
+}
+
+input {
+    display: block;
+    outline: none;
+    padding: 10px;
+    width: 100px;
+}
+
+.instances-form {
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.instances-form>input {
+    display: block;
+}
